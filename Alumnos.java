@@ -14,7 +14,7 @@ public class Alumnos {
 
 	 public boolean validaNif(String nif)
 	 {
-	        if (nif.length() != 9 || nif == null) {
+	        if (nif.length() != 9 || nif == null) { 
 	            return false;
 	 }
 	       
@@ -52,7 +52,7 @@ public class Alumnos {
 	        }
 	        return tasa;
 	    }
-	}
+	
 
 	
 }
